@@ -1,0 +1,110 @@
+details summary::-webkit-details-marker {
+	display:none;
+  }
+.row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 33.33%;
+	padding: 5px;
+  }
+  h1{
+      color:tan;
+  }
+nav {
+margin: 0px;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+}
+p{
+    color: black;
+}
+nav ul {
+    background: rgb(65, 65, 65);
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	color:black;
+	font-weight:900;
+	width:100%;
+	display:inline-block;
+}
+nav ul li {
+	display:inline-block;
+}
+nav ul li a {
+	display: block; 
+	padding: 25px 100px;
+	color:white; 
+	text-decoration: none;
+}
+nav ul li:hover {
+    background: rgb(255, 52, 5); 
+}
+
+section{
+	margin: auto;
+	padding: 5%;
+	width: 75%;
+	height: 100%;
+	box-align: center;
+	background:grey;
+	
+}
+h1{
+	color: black;
+}
+footer{
+    margin-top:200px;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: grey; 
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color:orangered; /* Add a hover color */
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        body{ 
+            max-width:1200px;
+            background-image:url('../media3/beach.jpg');
+			background-size:cover;
+			background-repeat: no-repeat;
+            background-position:center top;
+        }
+    }
+
+
+
+
+
+
+
